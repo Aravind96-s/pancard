@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    table,th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        background-color: antiquewhite;
+      }
+      table{
+        width: 100%;
+      }
+      #th1{
+        width: 1%;
+      }
+      #th2{
+        width: 99%;
+      }
+      #th3{
+        width: 49%;
+      }
+      #th4{
+        width: 50%;
+      }#th5{
+        width: 1%;
+      }
+      #data1{
+        color:red;
+      }
+      #title{
+        background-color: brown;
+        text-align: center;
+        color: white;
+      }
+      #Nameprint{
+        color: blue;
+      }
+      </style>
+</head>
+<body>
+    <section >
+    <div id="title">Request For New PAN Card Or/And Changes Or Correction in PAN Data</div>
+
+<div id="title">Fields marked with <span id= "data1">*</span> (asterisk) are mandatory. To avoid mistake(s), please refer denne and pakkum</div>
+<table width:100%>
+    <tr>
+      <td id="th1"> </td>
+      <td id="th2" ><b><span id= "data1">*</span><span> Whether citizen of India </span> </b><label for="html">Yes </label> <input type="radio" id="html" name="fav_language" value="yes"><label for="html">No</label> <input type="radio" id="html" name="fav_language" value="no ">
+        </td>
+    </tr>
+    <tr>
+        <td id="th1"> </td>
+        <td id="th2" ><b><span id= "data1">*</span><span> Permanent Account Number (PAN)</span> </b><input type="text"></td>
+      </tr>
+      <tr>
+        <td id="th1"><input type="checkbox"></td>
+        <td id="th2" ><span id= "data1">*</span><span><b> 1.Name</b></span> </td>
+      </tr>
+      <tr>
+        <td id="th1"> </td>
+        <td id="th2" ><b><span id= "data1">*</span><span>Title &#160;&#160;&#160;&#160;</span> </b> <label for="html">Shri/Mr</label> <input type="radio" id="html" name="fav_language" value="Shri/Mr"><label for="html">Smt/Mrs.</label> <input type="radio" id="html" name="fav_language" value="Smt/Mrs."><label for="html">Kumari/Ms</label> <input type="radio" id="html" name="fav_language" value="Kumari/Ms"></td>
+      </tr>
+      <tr>
+        <td id="th1"> </td>
+        <td id="th2" ><b><span> Last Name/Surname&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Frist Name&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Middle Name&#160;&#160;&#160;&#160;</span> </b><br><input type="text">&#160;&#160;&#160;&#160;<input type="text">&#160;&#160;&#160;&#160;<input type="text">&#160;&#160;&#160;&#160;</td>
+      </tr>
+      <tr>
+        <td id="th1"> </td>
+        <td id="th2" ><b><span id= "data1">*</span><span>Name as you would like it printed on the card</span><span id="Nameprint">(Prefix like Shri, Smt, Kumar, Late, Dr. CA, Ms. Mr. Mrs, M/s, Allas etc. are not allowed)</span></td>
+      </tr>
+      <tr>
+        <td id="th1"> </td>
+        <td id="th2" ><input style="width: 20%;" type="text"></td>
+      </tr>
+      <tr>
+        <td id="th1"> </td>
+        <td id="th2" ><span><b>Details of Parents. </b></span><span id="Nameprint">(Prefix like Shri, Smt, Kumari, Late, Dr, CA, Ms, Mr. Mrs, M/s, Allas etc. are not allowed.)</span></td>
+      </tr>
+      <tr>
+        <td id="th1"> </td>
+        <td id="th3" ><span><b>Whether mother is single parent and you wish to apply for PAN by furnishing the name of your mother only | </b></span> </b>
+        <label for="html">Yes </label> <input type="radio" id="html" name="fav_language" value="yes"><label for="html">No</label> <input type="radio" id="html" name="fav_language" value="no "></td>
+    </tr>
+      <tr>
+        <td id="th1"><input type="checkbox"></td>
+        <td id="th2" ><span id= "data1">*</span><span><b> Father's Name</b></span><span id="Nameprint">(Mandatory field. Even married women should give father's name only.)</span> </td>
+      </tr>
+      <tr>
+        <td id="th1"> </td>
+        <td id="th2" ><b><span> Last Name/Surname&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Frist Name&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Middle Name&#160;&#160;&#160;&#160;</span> </b><br><input type="text">&#160;&#160;&#160;&#160;<input type="text">&#160;&#160;&#160;&#160;<input type="text">&#160;&#160;&#160;&#160;</td>
+      </tr>
+      <tr>
+        <td id="th1"> </td>
+        <td id="th2" ><span id="Nameprint">Mother's Name (This field is optional)</span></td>
+      </tr>
+      <tr>
+        <td id="th1"> </td>
+        <td id="th2" ><b><span> Last Name/Surname&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Frist Name&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Middle Name&#160;&#160;&#160;&#160;</span> </b><br><input type="text">&#160;&#160;&#160;&#160;<input type="text">&#160;&#160;&#160;&#160;<input type="text">&#160;&#160;&#160;&#160;</td>
+      </tr>
+      <tr>
+        <td id="th1"> </td>
+        <td id="th2" ><span id= "data1">*</span><span><b>4. Select Parent name which is to be printed on the card &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+            | </b></span> </b>
+            <label for="html">Yes </label> <input type="radio" id="html" name="fav_language" value="yes"><label for="html">No</label> <input type="radio" id="html" name="fav_language" value="no "><br>
+            <span id="Nameprint">(In case no option is provided then PAN card will be issued with father's name)</span></td>
+      </tr>
+      <tr>
+        <td id="th1"> <input type="checkbox"></td>
+        <td id="th2" ><span id= "data1">*</span><span><b>5. Date of Birth/Incorporation/Agreement/Partnership or Trust Deed/Formation &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+            | </b></span> </b>
+            <input type="date" ></td>
+      </tr>
+      <tr>
+        <td id="th1"><input type="checkbox"> </td>
+        <td id="th2" ><span id= "data1">*</span><span><b>Gender &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+            | </b></span> </b>
+            <label for="html">Male</label> <input type="radio" id="html" name="fav_language" value="male"><label for="html">Female</label> <input type="radio" id="html" name="fav_language" value="no "><label for="html">TransGender</label> <input type="radio" id="html" name="fav_language" value="no "><br>
+            </td>
+      </tr>
+      <tr>
+        <td id="th1"><input type="checkbox"> </td>
+        <td id="th2" ><span id= "data1">*</span><span><b>7. Photo Mismatch
+            </b></span> </b>
+            </td>
+      </tr>
+      <tr>
+        <td id="th1"><input type="checkbox"> </td>
+        <td id="th2" ><span id= "data1">*</span><span><b>8. Signature Mismatch</b></span> </b>
+            </td>
+      </tr>
+  </table> 
+</section>
+</body>
+</html>
